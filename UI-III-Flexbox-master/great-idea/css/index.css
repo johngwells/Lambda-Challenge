@@ -76,7 +76,7 @@ h2 {
 }
 
 hr {
-	width: 70%;
+	width: 50%;
 	margin-left: 150px;
 	margin-right: auto;
 }
@@ -85,32 +85,24 @@ body {
 	margin: 0px 50px 0px 50px;
 }
 
-.nav-bar {
+.box-top {
 	display: flex;
 	flex-direction: row;
 	margin-top: 25px;
+	margin-left: 100px;
 }
 
 nav {
-	/* display: inline-block; */
-	display: flex;
-	flex-direction: space-evenly;
-	margin-left: 15px;
-}
-
-.nav-box-one {
 	display: flex;
 	flex-direction: row;
-	margin-left: 125px;
-	
+	margin-top: 12px;
+	margin-left: 30px;
 }
 
-.nav-box-two {
+.box-top img{
 	display: flex;
-	flex-direction: row;
-	/* margin-left: 75px; */
-	margin-left: 150px;
-	margin-bottom: 25px;
+	flex-direction: row-reverse;
+	margin-left: 75px;
 }
 
 a {
@@ -143,7 +135,7 @@ a {
 /* Get Started Button */
 .box-two {
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	font-size: 20px;
 	color: gray;
 	text-align: center;
@@ -151,10 +143,17 @@ a {
 	border: 2px solid gray;
 }
 
+/* .box-section-one.box-content-one img {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 100px;
+	margin-bottom: 25px;
+} */
+
 /* Box Right with Image */
 .box-content-two {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row-reverse;
 	margin: 40px 0px 15px 100px;
 }
 
