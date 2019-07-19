@@ -97,12 +97,10 @@ body {
 
 nav {
 	display: flex;
-	flex-direction: row;
 	margin-top: 12px;
-	margin-left: 30px;
 }
 
-.box-top img{
+.box-top img {
 	display: flex;
 	flex-direction: row-reverse;
 	margin-left: 75px;
@@ -112,7 +110,7 @@ a {
 	font-size: 18px;
 	color: gray;
 	text-decoration: none;
-	margin-left: 30px;
+	margin-left: 50px;
 }
 
 /* Box for top section */
@@ -271,6 +269,15 @@ footer {
 	border: 1px solid gray;
 }
 
+.middle-section-services-page p {
+	margin-left: 10px;
+}
+
+.middle-section-services-page h2 {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
 .top-section-services-page h1 {
 	font-size: 40px;
 }
@@ -314,6 +321,11 @@ footer {
 	margin-bottom: 10px;
 	margin-left: 15px;
 	justify-content: center;
+	border-radius: 5px;
 	/* align-items: baseline; */
 	/* text-align: center; */
+}
+
+li {
+	list-style-type: square;
 }
